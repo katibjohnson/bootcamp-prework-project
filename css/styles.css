@@ -1,6 +1,7 @@
 html {
     overflow:hidden;
     margin: 0 auto;
+    display: flex;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     width: 100vw;
-
+    flex-direction: column;
 }
 #header_content {
     background-color: #F2F2F2;
@@ -48,26 +49,23 @@ h1 {
     color: white;
     background-color: #20a8b4;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-right: 2vw;
+    padding: 8px;
 
 }
 .button:hover{
     background-color:#ff5c0f;
 }
-#contact_us {
-    padding:8px;
-}
 
 #center_content {
-    margin-left: 5px;
+    margin-left: 2vw;
     font-size: 3em;
-    padding: 15vw 2vw 0vw 1vw; 
+    padding: 15vw 2vw 0vw 2vw; 
 }
 
 #learn_more {
-    display: Block;
-    padding: 8px;
+    display: block;
 }
 img {
     visibility: hidden;
