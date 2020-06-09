@@ -17,7 +17,7 @@ body {
 
 #header_content {
     background-color: #F2F2F2;
-    font-size: 3.5em;
+    font-size: 3em;
     padding: 2vw;
 }
 
@@ -57,9 +57,9 @@ a {
     color: white;
     background-color: #20a8b4;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-right: 2vw;
-    padding: 8px;
+    padding: 12px;
 
 }
 .button:hover{
@@ -69,7 +69,7 @@ a {
 #center_content {
     margin-left: 2vw;
     font-size: 3em;
-    padding: 15vw 2vw 0vw 2vw; 
+    padding: 18vw 2vw 0vw 2vw; 
 }
 
 #learn_more {
@@ -143,6 +143,7 @@ img {
         border-radius: 12px;
         padding: 10px;
         font-size: .5em;
+        width: auto;
 
     }
     .button:hover{
@@ -150,9 +151,9 @@ img {
     }
 
     #center_content {
-        padding: 17.5vw 0vw 0vw 0vw;
+        padding: 10vw 0vw 0vw 0vw;
         display:flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         height: 30vw;
         align-items: center;
         justify-content: space-between;
@@ -162,17 +163,18 @@ img {
     #center_text {
         display:flex;
         flex-direction: column;
-        justif
     }
     h2 {
-        font-size: .85em;
+        font-size: .9em;
     }
     h3 {
         font-size: .55em;
     }
     #learn_more {
         letter-spacing: normal;
-        width:9vw;
+        display: inline-block;
+        width: auto;
+        font-size: .6em;
     }
     img {
         visibility: visible;
