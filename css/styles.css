@@ -1,3 +1,30 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.header {
+    background-color: #F2F2F2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.navi_links {
+    color:black;
+    text-decoration: none;
+}
+.navi_links:hover {
+    color: #ff5c0f !important;
+}
+h1 {
+    color: #20a8b4;
+}
+.emphasized_header {
+    color: #ff5c0f;
+}
+.button {
+    color: white;
+}
