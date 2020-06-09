@@ -1,13 +1,23 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin: 0vw;
+    padding: 0vw;
 }
-.header {
+#header {
     background-color: #F2F2F2;
+    margin: 0 auto;
+    width:100vw;
+    font-size: 3em;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin: 0 auto;
+}
+li {
+    margin:10px;
 }
 a {
     text-decoration: none;
@@ -21,10 +31,32 @@ a {
 }
 h1 {
     color: #20a8b4;
+    margin: 10px;
 }
 .emphasized_header {
     color: #ff5c0f;
 }
 .button {
     color: white;
+    background-color: #20a8b4;
+    text-align: center
+}
+.button:hover{
+    background-color:#ff5c0f;
+}
+#contact_us {
+    padding:12px;
+}
+
+#center_content {
+    margin: 10px;
+}
+
+#learn_more {
+    display:block;
+    width:100%;
+    padding: 12px;
+}
+img {
+    visibility: hidden;
 }
